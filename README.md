@@ -1,6 +1,6 @@
 # BASIC IDEA
 
-This is a three step process. In the first, we load the XML file for detecting the presence of faces and then we retrain our network with our image on five diffrent categories. After that, we import the label_image.py program from the [last video]() and set up everything in realtime.
+This is a three step process. In the first, we load the XML file for detecting the presence of faces and then we retrain our network with our image on five diffrent categories. After that, we import the label_image.py program and set up everything in realtime.
 
 # DEPENDENCIES
 
