@@ -1,23 +1,15 @@
-# Facial-Expression-Detection
-
-This is the code for [this video](https://youtu.be/Dqa-3N8VZbw) by Ritesh on YouTube.
-
-Facial Expression or Facial Emotion Detector can be used to know whether a person is sad, happy, angry and so on only through his/her face. This Repository can be used to carry out such a task. It uses your WebCamera and then identifies your expression in Real Time. Yeah in real-time!
-
-# PLAN
+# BASIC IDEA
 
 This is a three step process. In the first, we load the XML file for detecting the presence of faces and then we retrain our network with our image on five diffrent categories. After that, we import the label_image.py program from the [last video]() and set up everything in realtime.
 
 # DEPENDENCIES
 
-Hit the following in CMD/Terminal if you don't have already them installed:
 
-    pip install tensorflow
-    pip install opencv-python
+
+   tensorflow
+   opencv-python
     
-That's it for now.
-
-So let's take a brief look at each step.
+brief overview of each step.
 
 ## STEP 1 - Implementation of OpenCV HAAR CASCADES
 
@@ -55,4 +47,3 @@ It'll open a new window of OpenCV and then identifies your Facial Expression.
 We are done now!
 
 
-PLEASE DO STAR THIS REPO IF YOU FOUND SOMETHING INTERESTING. <3 Each Viewer.
