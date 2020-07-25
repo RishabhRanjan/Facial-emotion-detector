@@ -1,4 +1,4 @@
-## This program first ensures if the face of a person exists in the given image or not then if it exists, it crops
+## ENsuring if the face of a person exists in the given image or not then
 ## the image of the face and saves to the given directory.
 
 ## Importing Modules
@@ -11,10 +11,10 @@ import os
 ##Make changes to these lines for getting the desired results.
 
 ## DIRECTORY of the images
-directory = "E:/data/vids/a"
+directory = "F:/images/"
 
 ## directory where the images to be saved:
-f_directory = "E:/data/vids/Yawning/"
+f_directory = "F:/images/faces/"
 
 ################################################################################
             
@@ -29,9 +29,7 @@ def facecrop(image):
     img = cv2.imread(image)
 
     try:
-        ## Some downloaded images are of unsupported type and should be ignored while raising Exception, so for that
-        ## I'm using the try/except functions.
-    
+        
         minisize = (img.shape[1],img.shape[0])
         miniframe = cv2.resize(img, minisize)
 
