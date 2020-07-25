@@ -17,7 +17,6 @@ def load_graph(model_file):
     graph_def.ParseFromString(f.read())
   with graph.as_default():
     tf.import_graph_def(graph_def)
-
   return graph
 
 def read_tensor_from_image_file(file_name, input_height=299, input_width=299,
