@@ -11,12 +11,9 @@ Brief overview of each step.
 
 "Frontal Face Alt" Classifier is used detecting the presence of Face in the WebCam. 
 
-Next, load this file, which can be found in the label.py program. E.g.:
+Next, load this file, which can be found in the label.py program. 
 
-    #loading the xml file
-    classifier = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
-
-Now everything can be set with the Label.py Program. So let's move to the next Step.
+Now everything can be set with the label.py Program.
 
 ## STEP 2 - ReTraining Network
 
@@ -38,6 +35,6 @@ Now run the "label.py" program by typing the following in CMD/Terminal:
      python label.py
      
 It'll open a new window of OpenCV and then identifies your Facial Expression.
-Voila, mission accomplished
+Voila, mission accomplished!!
 
 
