@@ -4,7 +4,7 @@ import label_image
 size = 4
 
 
-# We load the xml file
+
 classifier = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
 
 webcam = cv2.VideoCapture(0) #Using default WebCam connected to the PC.
